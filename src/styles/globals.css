@@ -1,0 +1,66 @@
+/* globals.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+}
+
+main {
+  background-color: rgb(54, 77, 107);
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-x: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: fit-content;
+  padding: 10px;
+}
+
+.product {
+  max-width: 400px;
+  background-color: rgb(32, 43, 56);
+  color: white;
+  padding: 0.5em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.product > * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product img {
+  width: 300px;
+  height: 250px;
+  opacity: 0.8;
+}
+.product img:hover {
+/* box-shadow: 5px 10px #888888; */
+/* margin: -1px; */
+border: 8px solid #FF5800;
+opacity: unset;
+
+
+}
+
+.product h3 {
+  color: rgb(57, 181, 253);
+}
